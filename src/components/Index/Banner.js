@@ -20,7 +20,7 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  Welcome to Mainframe Tech
+                  Secure IT Solutions Services
                 </h1>
 
                 <p
@@ -28,10 +28,8 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  <h5>
-                  I'm Levi Oniszko, an IT Professional specializing in Systems, Networking, 
-                  and Security. Explore my portfolio and see my expertise in action.
-                  </h5>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
                 <div
@@ -40,9 +38,9 @@ const Banner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="300"
                 >
-                  <Link to="/Resources/contact" className="default-btn">
+                  <Link to="/contact" className="default-btn">
                     <i className="flaticon-right"></i>
-                    Let's Connect <span></span>
+                    Get Started <span></span>
                   </Link>
                 </div>
               </div>
