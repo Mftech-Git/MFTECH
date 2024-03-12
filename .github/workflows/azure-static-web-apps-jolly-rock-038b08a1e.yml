@@ -20,10 +20,16 @@ jobs:
           submodules: true
           lfs: false
 
-      # Add this step to install dependencies with --legacy-peer-deps
+      # Use Node.js setup action to specify Node version
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.x'
+
+      # Update this step to install dependencies with Yarn
       - name: Install dependencies
         run: |
-          npm install --legacy-peer-deps
+          yarn install --prefer-offline
 
       - name: Build And Deploy
         id: builddeploy
