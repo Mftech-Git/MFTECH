@@ -24,7 +24,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '18.0.0'
+          node-version: '20.x'
 
       # Update this step to install dependencies with Yarn
       - name: Install dependencies
