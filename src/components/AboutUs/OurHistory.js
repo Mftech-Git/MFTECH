@@ -13,7 +13,6 @@ const OurHistory = () => {
           <div className="section-title">
             <span className="sub-title">
               <img src={starIcon} alt="banner" />
-              Our History
             </span>
             <h2>History Begins in 2010</h2>
           </div>

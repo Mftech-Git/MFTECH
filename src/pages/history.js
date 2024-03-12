@@ -4,7 +4,6 @@ import Seo from "../components/_App/seo"
 import Navbar from "../components/_App/Navbar"
 import PageBanner from "../components/Common/PageBanner"
 import OurHistoryContentOne from "../components/History/OurHistoryContentOne"
-import OurHistoryContentTwo from "../components/History/OurHistoryContentTwo"
 import Footer from "../components/_App/Footer"
 
 const HistoryPage = () => {
@@ -22,7 +21,7 @@ const HistoryPage = () => {
 
       <OurHistoryContentOne />
 
-      <OurHistoryContentTwo />
+
       
       <Footer />
 

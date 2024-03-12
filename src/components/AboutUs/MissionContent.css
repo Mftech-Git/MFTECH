@@ -1,0 +1,28 @@
+.mission-area {
+    text-align: center; /* Centering all content */
+  }
+  
+  .mission-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .mission-statement h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .mission-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: justify;
+     /* Adjust the space between links */
+  }
+  
+  .mission-links a {
+    text-decoration: none;
+    color: #007bff; /* Your theme color for links */
+    font-weight: bold;
+  }
+  

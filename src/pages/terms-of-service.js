@@ -1,140 +1,82 @@
-import React from "react"
-import Layout from "../components/_App/layout"
-import Seo from "../components/_App/seo"
-import Navbar from "../components/_App/Navbar"
-import PageBanner from "../components/Common/PageBanner"
-import Footer from "../components/_App/Footer"
-import termsImg from "../images/terms-of-service.jpg"
+import React from "react";
+import Layout from "../components/_App/layout";
+import Seo from "../components/_App/seo";
+import Navbar from "../components/_App/Navbar";
+import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
+import termsImg from "../images/terms-of-service.jpg";
+import starIcon from "../images/star-icon.png";
 
 const TermsOfServicePage = () => {
-  return (
-    <Layout>
-      <Navbar />
+return (
+<Layout>
+  <Navbar />
 
-      <PageBanner
-        pageTitle="Terms of Service"
-        homePageText="Home"
-        homePageUrl="/"
-        activePageText="Terms of Service"
-      />
+  <PageBanner pageTitle="Terms of Service" homePageText="Home" homePageUrl="/" activePageText="Terms of Service" />
 
-      <section className="terms-of-service-area ptb-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-12">
-              <div className="terms-of-service-content">
-                <img src={termsImg} alt="terms" />
-                <p>
-                  <i>
-                    This Privacy Policy was last updated on January 1, 2020.
-                  </i>
-                </p>
-                <h3>1. What Data We Get</h3>
-                <blockquote className="blockquote">
-                  <p>
-                    We collect certain data from you directly, like information
-                    you enter yourself, data about your participation in
-                    courses, and data from third-party platforms you connect
-                    with WideCademy. We also collect some data automatically,
-                    like information about your device and what parts of our
-                    Services you interact with or spend time using.
-                  </p>
-                </blockquote>
-                <h3>2. Data You Provide to Us</h3>
-                <p>
-                  We may collect different data from or about you depending on
-                  how you use the Services. Below are some examples to help you
-                  better understand the data we collect.
-                </p>
-                <h3>3. How We Get Data About You</h3>
-                <p>
-                  We use tools like cookies, web beacons, analytics services,
-                  and advertising providers to gather the data listed above.
-                  Some of these tools offer you the ability to opt out of data
-                  collection.
-                </p>
-                <h3>4. What We Use Your Data For</h3>
-                <ol>
-                  <li>Responding to your questions and concerns;</li>
-                  <li>
-                    Sending you administrative messages and information,
-                    including messages from instructors and teaching assistants,
-                    notifications about changes to our Service, and updates to
-                    our agreements;
-                  </li>
-                  <li>
-                    Sending push notifications to your wireless device to
-                    provide updates and other relevant messages (which you can
-                    manage from the “options” or “settings” page of the mobile
-                    app);
-                  </li>
-                </ol>
-                <h3>5. Your Choices About the Use of Your Data</h3>
-                <p>
-                  You can choose not to provide certain data to us, but you may
-                  not be able to use certain features of the Services.
-                </p>
-                <ul>
-                  <li>
-                    To stop receiving promotional communications from us, you
-                    can opt out by using the unsubscribe mechanism in the
-                    promotional communication you receive or by changing the
-                    email preferences in your account. Note that regardless of
-                    your email preference settings, we will send you
-                    transactional and relationship messages regarding the
-                    Services, including administrative confirmations, order
-                    confirmations, important updates about the Services, and
-                    notices about our policies.
-                  </li>
-                  <li>
-                    The browser or device you use may allow you to control
-                    cookies and other types of local data storage. Your wireless
-                    device may also allow you to control whether location or
-                    other data is collected and shared. You can manage Adobe’s
-                    LSOs through their Website Storage Settings panel.
-                  </li>
-                  <li>
-                    To get information and control cookies used for tailored
-                    advertising from participating companies, see the consumer
-                    opt-out pages for the Network Advertising Initiative and
-                    Digital Advertising Alliance, or if you’re located in the
-                    European Union, visit the Your Online Choices site. To opt
-                    out of Google’s display advertising or customize Google
-                    Display Network ads, visit the Google Ads Settings page. To
-                    opt out of Taboola’s targeted ads, see the Opt-out Link in
-                    their Cookie Policy.
-                  </li>
-                  <li>
-                    To update data you provide directly, log into your account
-                    and update your account at any time.
-                  </li>
-                </ul>
-                <h3>6. Our Policy Concerning Children</h3>
-                <p>
-                  We recognize the privacy interests of children and encourage
-                  parents and guardians to take an active role in their
-                  children’s online activities and interests. Children under 13
-                  (or under 16 in the European Economic Area) should not use the
-                  Services. If we learn that we’ve collected personal data from
-                  a child under those ages, we will take reasonable steps to
-                  delete it.
-                </p>
-              </div>
-            </div>
+  <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={starIcon} alt="star icon" style={{ marginBottom: '10px' }} />
+  </div>
+
+  <section className="terms-of-service-area ptb-100">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-12">
+          <div className="terms-of-service-content">
+            <img src={termsImg} alt="terms" />
+            <p><i>Last Updated: [Insert Current Date Here]</i></p>
+            <h3>Welcome to Mainframe Tech</h3>
+            <p>
+              Thank you for choosing Mainframe Tech for your IT training and resources. By accessing or using our services, you agree to be bound by these terms of service. These terms apply to all visitors, users, and others who wish to access or use our Service.
+            </p>
+            <h3>1. Services Offered</h3>
+            <p>
+              Mainframe Tech provides comprehensive IT training modules, including practical and applicable skills for the IT field, through various mediums such as interactive labs, video tutorials, and quizzes. We aim to empower users with the knowledge and skills required to excel in their IT careers.
+            </p>
+            <h3>2. Use of Our Services</h3>
+            <p>
+              Our services are designed to offer users an immersive learning experience. We encourage collaboration, questions, and active participation in all our modules. However, misuse of the services, including sharing copyrighted material, harassment, or any form of cheating, is strictly prohibited.
+            </p>
+            <h3>3. Account Registration and Security</h3>
+            <p>
+              To access certain features of our services, you may be required to create an account. It is crucial that the information you provide is accurate and up to date. You are responsible for maintaining the confidentiality of your account and password.
+            </p>
+            <h3>4. Intellectual Property Rights</h3>
+            <p>
+              All content provided on Mainframe Tech, including text, graphics, logos, and software, is the property of Mainframe Tech or its content suppliers and protected by international copyright laws.
+            </p>
+            <h3>5. User Contributions</h3>
+            <p>
+              Users may post, link, share, and otherwise contribute content, provided it does not infringe on intellectual property rights, is not illegal, and does not contain harmful software.
+            </p>
+            <h3>6. Termination</h3>
+            <p>
+              We may terminate or suspend your account and bar access to the Service immediately, without prior notice or liability, for any reason whatsoever, including without limitation if you breach the Terms.
+            </p>
+            <h3>7. Modifications to the Service and Prices</h3>
+            <p>
+              Mainframe Tech reserves the right at any time to modify or discontinue the Service (or any part or content thereof) without notice at any time. Prices for our products are subject to change without notice.
+            </p>
+            <h3>8. Disclaimer and Limitation of Liability</h3>
+            <p>
+              Mainframe Tech's services are provided on an 'as is' and 'as available' basis. We do not warrant that the service will be uninterrupted, timely, secure, or error-free. In no event shall Mainframe Tech, nor its directors, employees, partners, agents, suppliers, or affiliates, be liable for any indirect, incidental, special, consequential or punitive damages, including without limitation, loss of profits, data, use, goodwill, or other intangible losses.
+            </p>
+            <h3>Contact Us</h3>
+            <p>
+              If you have any questions about these Terms, please contact us at [Insert Contact Information].
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <Footer />
-    </Layout>
-  )
-}
+  <Footer />
+</Layout>
+);
+};
 
-/**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Terms Of Service" />
+export const Head = () =>
+<Seo title="Terms Of Service" />;
 
-export default TermsOfServicePage
+export default TermsOfServicePage;

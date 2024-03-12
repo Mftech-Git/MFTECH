@@ -1,142 +1,92 @@
-import React from "react"
-import Layout from "../components/_App/layout"
-import Seo from "../components/_App/seo"
-import Navbar from "../components/_App/Navbar"
-import PageBanner from "../components/Common/PageBanner"
-import Footer from "../components/_App/Footer"
-import privacyPolicy from "../images/privacy-policy.jpg"
+import React from "react";
+import Layout from "../components/_App/layout";
+import Seo from "../components/_App/seo";
+import Navbar from "../components/_App/Navbar";
+import PageBanner from "../components/Common/PageBanner";
+import Footer from "../components/_App/Footer";
+import privacyPolicy from "../images/privacy-policy.jpg";
+import starIcon from "../images/star-icon.png";
 
 const PrivacyPolicyPage = () => {
-  return (
-    <Layout>
 
-      <Navbar />
+  const lastUpdatedDate = new Date().toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
+return (
+<Layout>
 
-      <PageBanner
-        pageTitle="Privacy Policy"
-        homePageText="Home"
-        homePageUrl="/"
-        activePageText="Privacy Policy"
-      />
+  <Navbar />
 
-      <section className="privacy-policy-area ptb-100">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-md-12">
-              <div className="privacy-policy-content">
-                <img src={privacyPolicy} alt="privacyPolicy" />
-                <p>
-                  <i>
-                    This Privacy Policy was last updated on January 1, 2020.
-                  </i>
-                </p>
-                <h3>1. What Data We Get</h3>
-                <blockquote className="blockquote">
-                  <p>
-                    We collect certain data from you directly, like information
-                    you enter yourself, data about your participation in
-                    courses, and data from third-party platforms you connect
-                    with WideCademy. We also collect some data automatically,
-                    like information about your device and what parts of our
-                    Services you interact with or spend time using.
-                  </p>
-                </blockquote>
-                <h3>2. Data You Provide to Us</h3>
-                <p>
-                  We may collect different data from or about you depending on
-                  how you use the Services. Below are some examples to help you
-                  better understand the data we collect.
-                </p>
-                <h3>3. How We Get Data About You</h3>
-                <p>
-                  We use tools like cookies, web beacons, analytics services,
-                  and advertising providers to gather the data listed above.
-                  Some of these tools offer you the ability to opt out of data
-                  collection.
-                </p>
-                <h3>4. What We Use Your Data For</h3>
-                <ol>
-                  <li>Responding to your questions and concerns;</li>
-                  <li>
-                    Sending you administrative messages and information,
-                    including messages from instructors and teaching assistants,
-                    notifications about changes to our Service, and updates to
-                    our agreements;
-                  </li>
-                  <li>
-                    Sending push notifications to your wireless device to
-                    provide updates and other relevant messages (which you can
-                    manage from the “options” or “settings” page of the mobile
-                    app);
-                  </li>
-                </ol>
-                <h3>5. Your Choices About the Use of Your Data</h3>
-                <p>
-                  You can choose not to provide certain data to us, but you may
-                  not be able to use certain features of the Services.
-                </p>
-                <ul>
-                  <li>
-                    To stop receiving promotional communications from us, you
-                    can opt out by using the unsubscribe mechanism in the
-                    promotional communication you receive or by changing the
-                    email preferences in your account. Note that regardless of
-                    your email preference settings, we will send you
-                    transactional and relationship messages regarding the
-                    Services, including administrative confirmations, order
-                    confirmations, important updates about the Services, and
-                    notices about our policies.
-                  </li>
-                  <li>
-                    The browser or device you use may allow you to control
-                    cookies and other types of local data storage. Your wireless
-                    device may also allow you to control whether location or
-                    other data is collected and shared. You can manage Adobe’s
-                    LSOs through their Website Storage Settings panel.
-                  </li>
-                  <li>
-                    To get information and control cookies used for tailored
-                    advertising from participating companies, see the consumer
-                    opt-out pages for the Network Advertising Initiative and
-                    Digital Advertising Alliance, or if you’re located in the
-                    European Union, visit the Your Online Choices site. To opt
-                    out of Google’s display advertising or customize Google
-                    Display Network ads, visit the Google Ads Settings page. To
-                    opt out of Taboola’s targeted ads, see the Opt-out Link in
-                    their Cookie Policy.
-                  </li>
-                  <li>
-                    To update data you provide directly, log into your account
-                    and update your account at any time.
-                  </li>
-                </ul>
-                <h3>6. Our Policy Concerning Children</h3>
-                <p>
-                  We recognize the privacy interests of children and encourage
-                  parents and guardians to take an active role in their
-                  children’s online activities and interests. Children under 13
-                  (or under 16 in the European Economic Area) should not use the
-                  Services. If we learn that we’ve collected personal data from
-                  a child under those ages, we will take reasonable steps to
-                  delete it.
-                </p>
-              </div>
-            </div>
+  <PageBanner pageTitle="Privacy Policy" homePageText="Home" homePageUrl="/" activePageText="Privacy Policy" />
+
+  <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <img src={starIcon} alt="star icon" style={{ marginBottom: '10px' }} />
+  </div>
+
+  <section className="privacy-policy-area ptb-100">
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col-lg-8 col-md-12">
+          <div className="privacy-policy-content">
+            <img src={privacyPolicy} alt="Privacy Policy" />
+            <p>
+              <i>
+                This Privacy Policy was last updated on <span style={{ fontWeight: 'bold', color: '#224907' }}>{lastUpdatedDate}</span>.
+              </i>
+            </p>
+            <h3>1. Introduction</h3>
+            <p>
+              At Mainframe Tech, your privacy is paramount. We are committed to protecting your personal information and being transparent about the information we collect about you and what we do with it.
+            </p>
+            <h3>2. Information We Collect</h3>
+            <p>
+              We collect limited information but only to provide better services to all our users – from figuring out basic stuff like which language you speak, to more complex things like which services you’ll find most useful. The information Mainframe Tech collects, and how that information is used, depends on how you use our services and how you manage your privacy controls.
+            </p>
+            <h3>3. How We Use Information</h3>
+            <p>
+              We use the information we collect from our services to provide, maintain, protect, and improve them, to develop new ones, and to protect Mainframe Tech and our users. We also use this information to offer you tailored content – like giving you more relevant search results and ads.
+            </p>
+            <h3>4. Information Security</h3>
+            <p>
+              We work hard to protect Mainframe Tech and our users from unauthorized access to or unauthorized alteration, disclosure, or destruction of information we hold. In particular:
+              <ul>
+                <li>We encrypt many of our services using SSL.</li>
+                <li>We offer you two-step verification when you access your Mainframe Tech Account.(Coming Soon)</li>
+                <li>We review our information collection, storage, and processing practices, including physical security measures, to prevent unauthorized access to our systems.</li>
+              </ul>
+            </p>
+            <h3>5. Accessing and Updating Your Personal Information</h3>
+            <p>
+              Whenever you use our services, we aim to provide you with access to your personal information. If that information is wrong, we strive to give you ways to update it quickly or to delete it – unless we have to keep that information for legitimate business or legal purposes.
+            </p>
+            <h3>6. Changes</h3>
+            <p>
+              Our Privacy Policy may change from time to time. We will not reduce your rights under this Privacy Policy without your explicit consent. We will post any privacy policy changes on this page and, if the changes are significant, we will provide a more prominent notice (including, for certain services, email notification of privacy policy changes).
+            </p>
+            <h3>7. Contact</h3>
+            <p>
+              For questions about these or any Mainframe Tech terms or policies, email us at [Insert Contact Email].
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-      <Footer />
-      
-    </Layout>
-  )
-}
+  <Footer />
+
+</Layout>
+);
+};
 
 /**
- * Head export to define metadata for the page
- *
- * See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
- */
-export const Head = () => <Seo title="Privacy Policy" />
+* Head export to define metadata for the page
+*
+* See: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/
+*/
+export const Head = () =>
+<Seo title="Privacy Policy" />
 
-export default PrivacyPolicyPage
+export default PrivacyPolicyPage;
