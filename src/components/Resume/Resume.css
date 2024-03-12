@@ -1,0 +1,24 @@
+/* resume.css */
+
+/* Increase specificity by targeting div elements directly */
+.employment-section div.h5-like {
+    font-size: 1rem; /* or 1.5em, depending on your exact needs */
+    font-weight: bold; /* typically 700 */
+    margin: 0;
+    padding: 0;
+    /* Add any additional h5-like styles here */
+  }
+  
+  /* Specific alignment styles for the grid columns, ensuring specificity */
+  .employment-section div.text-left {
+    text-align: left;
+  }
+  
+  .employment-section div.text-center {
+    text-align: center;
+  }
+  
+  .employment-section div.text-right {
+    text-align: right;
+  }
+  
