@@ -101,10 +101,10 @@ const Footer = () => {
                   <Link to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/services">Documentation Hub</Link>
+                  <Link to="/coming-soon">Documentation Hub</Link>
                 </li>
                 <li>
-                  <Link to="/FAQ">Frequently Asked Questions</Link>
+                  <Link to="/Resources/Documentation/FAQ">Frequently Asked Questions</Link>
                 </li>
               </ul>
             </div>
@@ -146,7 +146,7 @@ const Footer = () => {
             <div className="col-lg-6 col-md-6">
               <ul>
                 <li>
-                  <Link to="/privacy-policy"><strong>Privacy Policy</strong></Link>
+                  <Link to="/privacy-policy">P<strong>Privacy Policy</strong></Link>
                 </li>
                 <li>
                   <Link to="/terms-of-service"><strong>Terms & Conditions</strong></Link>
