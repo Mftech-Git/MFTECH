@@ -3,6 +3,9 @@
   "private": true,
   "description": "Gatsby React IT Startup & Technology Template",
   "version": "2.2.0",
+  "engines": {
+    "node"" ">=16.0.o"
+  },
   "author": "@envytheme",
   "dependencies": {
     "@formspree/react": "^2.5.1",
@@ -54,7 +57,4 @@
       "react": "^18.0.0"
     }
   },
-  "engines": {
-    "node": "16.x"
-  }
 }
