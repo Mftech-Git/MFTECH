@@ -4,7 +4,7 @@
   "description": "Gatsby React IT Startup & Technology Template",
   "version": "2.2.0",
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=18.0.0"
   },
   "author": "@envytheme",
   "dependencies": {
