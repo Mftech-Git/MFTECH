@@ -27,18 +27,6 @@ const AboutUsPage = () => {
 
       <AboutUsContent />
 
-      <OurHistory />
-
-      <WhyChooseUs />
-
-      <HowItWork />
-
-      <TeamMembers />
-
-      <Testimonials />
-
-      <Partner />
-
       <Footer />
 
     </Layout>
