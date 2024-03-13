@@ -18,10 +18,11 @@ const StartProject = () => {
 
             <div className="col-lg-6 col-md-12">
               <div className="project-start-content">
-                <h2>We Like to Start Your Project With Us</h2>
+                <h2>Start Your Project With Us</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna.
+                  Whether you want help profesionnally be you Internal and In-House, a Managed Service Provider, or Residential Mom & Pop. I'm more than happy
+                  to get you what you need. I provide consultation services and also do all my own work. No stone is ever left unturned and I promise you will
+                  have peace of mind knowing "It's Done Right The First Time!" and before deadline!
                 </p>
 
                 <Link to="/contact" className="default-btn">
