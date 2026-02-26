@@ -30,7 +30,9 @@
     "swiper": "^9.2.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.7"
+    "prettier": "^2.8.7",
+    "ajv": "6.14.0",
+    "ajv-keywords": "3.5.2"
   },
   "keywords": [
     "gatsby"
@@ -55,6 +57,14 @@
   "overrides": {
     "react-server-dom-webpack@0.0.0-experimental-c8b778b7f-20220825": {
       "react": "^18.0.0"
+    },
+    "schema-utils@4.3.3": {
+      "ajv": "8.18.0",
+      "ajv-keywords": "5.1.0",
+      "ajv-formats": "2.1.1"
+    },
+    "ajv-keywords@5.1.0": {
+      "ajv": "8.18.0"
     }
   }
-}   
+}
